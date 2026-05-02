@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - NutriLens AI</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #080C14; color: #E0E6F0; line-height: 1.7; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        h1 { color: #22C55E; font-size: 2em; margin-bottom: 8px; }
+        h2 { color: #0EA5A4; font-size: 1.3em; margin: 30px 0 12px; border-bottom: 1px solid #1a2436; padding-bottom: 8px; }
+        p, li { color: #8899BB; margin-bottom: 12px; }
+        ul { padding-left: 24px; }
+        li { margin-bottom: 8px; }
+        .date { color: #4A5878; font-size: 0.9em; margin-bottom: 30px; }
+        a { color: #22C55E; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .highlight { background: #111927; border-left: 3px solid #22C55E; padding: 16px; border-radius: 0 8px 8px 0; margin: 16px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="date">Last updated: May 2, 2026</p>
+
+        <div class="highlight">
+            <p><strong>NutriLens AI</strong> is a personal nutrition coach that helps you track calories, plan meals and chat with an AI assistant. Your privacy matters to us. This policy explains what data the app handles, where it goes and what we never collect.</p>
+        </div>
+
+        <h2>1. Data Stored On Your Device</h2>
+        <p>The following information stays on your device in a local database and is never uploaded to our servers:</p>
+        <ul>
+            <li><strong>Profile:</strong> Name, age, gender, height, weight, target weight, activity level, goal, dietary preferences and allergies you enter during onboarding.</li>
+            <li><strong>Food log:</strong> Meals you save, including the AI-estimated calories, macros, portion notes and the meal photo (when you scan one).</li>
+            <li><strong>Hydration log:</strong> Water amounts you log throughout the day.</li>
+            <li><strong>Weight history:</strong> Each weight entry you log over time.</li>
+            <li><strong>Chat history:</strong> Messages you exchange with the in-app NutriCoach assistant.</li>
+            <li><strong>App preferences:</strong> Selected language and theme.</li>
+        </ul>
+        <p>This data is yours. Uninstalling the app removes it permanently.</p>
+
+        <h2>2. Information We Do NOT Collect</h2>
+        <div class="highlight">
+            <ul>
+                <li>We do <strong>NOT</strong> collect your name, email, phone number or any account credentials — the app has no sign-up.</li>
+                <li>We do <strong>NOT</strong> track your location.</li>
+                <li>We do <strong>NOT</strong> read your contacts, photos library, files or other apps.</li>
+                <li>We do <strong>NOT</strong> sell or rent your data to anyone, ever.</li>
+                <li>We do <strong>NOT</strong> use third-party analytics SDKs to profile your behaviour.</li>
+            </ul>
+        </div>
+
+        <h2>3. AI Features (OpenAI)</h2>
+        <p>Three features in the app use OpenAI's API to give you personalised results:</p>
+        <ul>
+            <li><strong>Food scan:</strong> When you take a photo of a meal, the photo is sent to OpenAI's vision model so it can identify the food and estimate calories and macros.</li>
+            <li><strong>NutriCoach chat:</strong> Your chat questions, plus a brief summary of your goal and dietary preferences, are sent to OpenAI to generate a reply.</li>
+            <li><strong>Meal & workout plan:</strong> Your profile (age, weight, goal, activity, diet preferences) is sent to OpenAI to generate the personalised plan.</li>
+        </ul>
+        <p>OpenAI processes these requests under their own privacy policy. Per OpenAI's API terms, requests sent through the API are <strong>not used to train their models</strong>. You can read OpenAI's privacy practices at <a href="https://openai.com/policies/privacy-policy">openai.com/policies/privacy-policy</a>.</p>
+
+        <h2>4. Camera Permission</h2>
+        <p>The app requests camera access only to let you scan meals. Photos taken in the scan flow are sent to OpenAI for analysis (see section 3) and saved locally in your meal log if you choose to save the entry. We never upload your photos anywhere else.</p>
+
+        <h2>5. Firebase Realtime Database</h2>
+        <p>We use Firebase Realtime Database to deliver remote configuration to the app — for example, ad placement IDs, feature toggles, the AI model name to use and the URLs to this Privacy Policy and Terms. The app only <strong>reads</strong> from Firebase; it does not upload any of your personal data, food log, photos or chat to Firebase. Firebase may collect technical identifiers (an installation ID) for service operation. See <a href="https://firebase.google.com/support/privacy">Firebase Privacy & Security</a>.</p>
+
+        <h2>6. Advertising (Google AdMob)</h2>
+        <p>The free version of the app shows banner and occasional interstitial ads served by <strong>Google AdMob</strong>. AdMob may use your Advertising ID to serve relevant ads and measure performance. You can reset or opt out of personalised ads any time:</p>
+        <ul>
+            <li><strong>Android:</strong> Settings → Google → Ads → "Delete advertising ID" or "Opt out of Ads Personalisation".</li>
+        </ul>
+        <p>See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> for details on how AdMob handles ad-related data.</p>
+
+        <h2>7. Children's Privacy</h2>
+        <p>NutriLens AI is intended for users aged 13 and above. We do not knowingly collect personal information from children under 13. If you believe a child has used the app and shared sensitive information, please contact us so we can help.</p>
+
+        <h2>8. Health & Medical Disclaimer</h2>
+        <p>NutriLens AI is a tracking and educational tool. It is <strong>not</strong> a medical device and does not provide medical advice, diagnosis or treatment. AI calorie estimates and meal plans are best-effort suggestions based on the photo or profile you provide and may be inaccurate. Always consult a qualified healthcare professional before making changes to your diet, exercise routine, medication or treatment plan — especially if you have a medical condition, are pregnant, or are recovering from an eating disorder.</p>
+
+        <h2>9. Data Security</h2>
+        <p>On-device data is stored in the app's private storage area, which other apps cannot access. Network calls to OpenAI and Firebase use HTTPS / TLS encryption in transit. No method of electronic transmission or storage is 100% secure, but we follow standard practices to protect your information.</p>
+
+        <h2>10. Your Rights</h2>
+        <p>You can at any time:</p>
+        <ul>
+            <li>Edit or remove any meal, weight or water entry from inside the app.</li>
+            <li>Edit your profile or delete it via "Restart onboarding" in Settings → Profile.</li>
+            <li>Clear chat history from inside the chat screen.</li>
+            <li>Uninstall the app to remove all locally stored data permanently.</li>
+            <li>Reset your Advertising ID via Android system settings.</li>
+            <li>Email us with any privacy-related question.</li>
+        </ul>
+
+        <h2>11. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy as the app evolves (for example, if we add a new third-party service). When we do, we update the "Last updated" date at the top and publish the new version at this same URL. Continued use of the app after changes are posted constitutes acceptance of the updated policy.</p>
+
+        <h2>12. Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy or how your data is handled, please get in touch:</p>
+        <p><strong>Email:</strong> <a href="mailto:mokshgiri@gmail.com">mokshgiri@gmail.com</a></p>
+    </div>
+</body>
+</html>
